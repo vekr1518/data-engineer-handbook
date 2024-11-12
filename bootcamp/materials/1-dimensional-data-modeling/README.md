@@ -61,24 +61,7 @@ There are two methods to get Postgres running locally.
     ```bash
     cp example.env .env
     ```
-    
-- Edit **`.env`** and change the value for the **`DISCORD_USER`** variable to your Discord username:
-    
-    ```bash
-    POSTGRES_SCHEMA=postgres
-    POSTGRES_USER=postgres
-    POSTGRES_DB=postgres
-    POSTGRES_PASSWORD=postgres
-    
-    HOST_PORT=5432
-    CONTAINER_PORT=5432
-    
-    DOCKER_CONTAINER=my-postgres-container
-    DOCKER_IMAGE=my-postgres-image
-    
-    DISCORD_USER=<your_username> ## this should also be the name of the folder inside homework/ where your SQL files live
-    ```
-    
+
 - Start the Docker Compose container:
     - If you're on Mac:
         
